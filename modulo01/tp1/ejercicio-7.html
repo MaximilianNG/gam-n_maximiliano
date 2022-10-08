@@ -1,0 +1,19 @@
+<!--Consigna: Ejecutar el programa en el navegador. Guardarlo con el nombre: Ejercicio7.html’ Pasar
+valores por teclado. Anotar con comentarios que hace el programa.-->
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let dato, resultado;
+            //Se declaran dos variables, "dato" y "resultado".
+            val1 = window.prompt("Introduce tu nombre", "...");
+            val2 = window.prompt("Introduce tu apellido", "...");
+            //A través de un prompt se le pide al usuario dos valores que se almacenan en las variables val1 y val2.
+            resultado = `Concatenado tu nombre y apellido es: ${val1} ${val2} ` ;
+            //Utilizando una string escrita con template literals (`) incrusta los valores de val1 y val2 en la string y se la asigna a la variable resultado.
+            document.write(resultado);
+            //Escribe el valor de resultado en el HTML.
+        </script>
+    </body>
+</html>
